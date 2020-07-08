@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:flexWrap="wrap"
+    app:alignItems="center"
+    app:justifyContent="center"
+    app:flexDirection="column"
+    android:layout_margin="20dp"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    app:alignContent="stretch">
+
+    <TextView
+        android:text="@string/text_blank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        app:layout_flexGrow="2"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:scrollbars="vertical"
+        android:id="@+id/client_text_view" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:scrollbars="vertical"
+        android:id="@+id/client_edit_text"
+        android:inputType="text"
+        android:hint="@string/enter_text_here"
+        android:autofillHints="" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexWrap="nowrap"
+        app:alignItems="center"
+        app:justifyContent="space_between"
+        app:flexDirection="row"
+        app:alignContent="space_between">
+
+        <Button
+            android:text="@string/establish_connection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/establish_connection_button"
+            android:layout_margin="10dp"
+            android:onClick="onEstablishConnectionButtonClick" />
+
+        <Button
+            android:text="@string/send_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_message_button"
+            android:layout_margin="10dp"
+            android:onClick="onSendButtonClick" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+
+</com.google.android.flexbox.FlexboxLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Client Server</string>
+    <string name="no_internet">
+        Couldn\'t access the internet. Please verify that you can connect to the internet</string>
+    <string name="establish_connection">Establish Connection</string>
+    <string name="establishing_connection">Establishing Connection...</string>
+    <string name="malformed_url">The URL string could not be parsed</string>
+    <string name="text_blank">Messages appear here.</string>
+    <string name="cancel">Cancel</string>
+    <string name="server_list">Server List</string>
+    <string name="send_message">Send Message</string>
+    <string name="connect_to_server">Please connect to the server first by pressing \"Establish Connection\"</string>
+    <string name="connection_established">Connection Established</string>
+    <string name="connection_closed">Connection Closed</string>
+    <string name="close_connection">Close Connection</string>
+    <string name="enter_text_here">Enter Text Here</string>
+    <string name="closing_connection">Closing Connection...</string>
+</resources>
